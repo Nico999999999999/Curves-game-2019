@@ -1,0 +1,32 @@
+canvas { border: 1px solid purple;margin: 0 auto; }
+
+body{
+  cursor: url(circle.png) 16 16, auto !important;	
+}
+
+
+body { 
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none;
+}
+
+#patr{
+   color: #171daf; 
+    text-decoration: none;
+    font-size:15px;
+    cursor: url(circle.png) 16 16, auto;	
+}
+
+
+#patrLink:hover{
+    color: #0092ff;
+    cursor: url(circle.png) 16 16, auto;	
+}
+
+#patr:hover{
+    color: #0092ff;
+    cursor: url(circle.png) 16 16, auto;	
+}
